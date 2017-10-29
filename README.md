@@ -1,2 +1,2 @@
-### scraping_rotten_tomatoes
+### Instruction
 scrapy crawl RottenTomatoes
