@@ -8,7 +8,8 @@
 import scrapy
 
 
-class RtCrawlerItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+class RTItem(scrapy.Item):
+    title = scrapy.Field()
+    score = scrapy.Field()
+    genres = scrapy.Field()
+    consensus = scrapy.Field()
